@@ -1,0 +1,77 @@
+body {
+		background-image: url("back1.jpg");
+}
+
+fieldset{
+	border : none;
+}
+
+legend{
+	color : white;
+}
+
+
+div.textBoxArea {
+	
+	padding:5px;
+    margin: 5px;
+    background-color: #92C8DA; 
+    border: 4px solid ;
+	border-color : #92C8DA;
+	border-radius:4px;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    -webkit-column-count: 2;
+    position: relative;
+}
+input[type="text"]
+{
+	position: absolute;
+	right:10px;
+	width:75%;
+	background-color: white;
+	opacity: 1;
+}
+
+
+.mainClass{
+	
+	position: absolute;
+	right: 680px;
+	top:25px;
+
+}
+
+textarea
+{
+	position: absolute;
+	right: 10px;
+	width:75%;
+}
+
+#txta
+{
+	height:60px;
+}
+ 
+
+.r_img{
+	width : 15px;
+	height : 12px;
+}
+
+.button_class{
+	border-radius : 5px;
+	color : white;
+	align-left : center;
+	background-color : navy;
+	position : relative;
+	left : 50%;
+
+}
+
+
+
+	
+	
+
+

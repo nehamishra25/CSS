@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Assignment 2</title>
+	<style type="text/css">
+		#borderArea{
+			width: 50%;
+			height: 30px;
+			background-color:black; 
+		}
+		#outer{
+			position: relative;
+			top: 10px;
+			left: 20px;
+		}
+		#logo1{
+			position: absolute;
+			width:100px;
+			height= 100px;
+			float: left;
+			left: 10px;
+		}
+		#logoText{
+			top: -50px;
+			left: 125px;
+			position: absolute;
+			font-variant:small-caps ;
+			font-size: 70px;
+			color:rgb(33,117,155);
+		}
+		span{
+			color: black;
+		}
+		#box2{
+			position: relative;
+			top: 150px;
+			left: 25px;
+		}
+		#img2
+		{
+			height:30px;
+			width: 40px;
+			position:absolute;
+			top:70px;
+			left:380px;
+		}
+		#text{
+			position: absolute;
+			height: 25px;
+			width: 100px;
+			top: 70px;
+			left: 220px;
+			width: 150px;
+		}
+		#text1
+		{
+			position:absolute;
+			font-size: 20px;
+		}
+		#text2
+		{
+			position:absolute;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="borderArea"></div>
+<br>
+<div id="outer">
+	<img src="wordpress_image.png" id="logo1">
+	<p id="logoText"><b>Word<span>Press</span><b></p>
+</div>
+<div id="box2">
+	<p id="text1">Upload a theme <button>Browse..</button> No file selected.</p>
+	<br><br><br>
+	<p id="text2">Or search in Wordpress </p>
+	<input type="text" name="search" id="text">
+	<img src="wordpress_image2.jpg" id="img2"></img>
+</div>
+</body>
+</html>
